@@ -1,3 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header {
+    overflow: auto;
+}
+
+#img-header {
+    float: left;
+}
+
+#text-header {
+    float: left;
+}
+
+.secondpartofheader ul li {
+    display: inline-block;
+    float: left;
+}
+
+.secondpartofheader {
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+#text-header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+
+#img-header {
+    margin-top: 13px;
+    margin-right: 5px;
+}
+
+h6 {
+    color: gray;
+    font-family: 'Domine', serif;
+}
+
+hr.hrStyle {
+    margin-top: 30px;
+    height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+p {
+    padding: 20px;
+    color: gray;
+}
+
+.main-header {
+    overflow: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.title-icon {
+    float: left;
+    margin-left: 670px;
+    margin-top: 30px;
+}
+
+.title {
+    float: left;
+}
+
+.title h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+}
+
+.divider {
+    width: 700px;
+    text-align: center;
+}
+
+.divider hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    margin-top: 35px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+hr {
+    border-bottom: 1px solid #8c8b8b;
+}
+
+.footerh6 {
+    text-align: center;
+    margin-top: 20px;
+  }
 #listpic{
   background-image: url("./img/list-bg.png");
   background-size: cover;
@@ -12,10 +125,16 @@
 .list{
   float:left;
   margin-right: 200px;
+  margin-top: 40px;
+  margin-left: 90px;
+
+
 }
 
 .list2{
   float:left;
+  margin-top: 40px;
+
 }
 ul{
   float:left;
@@ -26,7 +145,7 @@ ul{
 }
 .authorPic{
   float: left;
-  margin-top: 25px;
+  /*margin-top: 25px;*/
 }
 .authorBio{
   float:left;
@@ -41,5 +160,9 @@ ul{
   padding-bottom: 15px;
   padding-right: 27px;
   padding-left: 27px;
-  margin-left: 80px;
+  margin-left: 20px;
+}
+
+span img{
+  margin-top: 20px;
 }
