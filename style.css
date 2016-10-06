@@ -84,15 +84,15 @@ p {
 }
 
 .divider {
-    width: 900px;
+    width: 700px;
     text-align: center;
 }
 
 .divider hr {
     margin-left: auto;
     margin-right: auto;
-    width: 46%;
-    margin-top: 15px;
+    width: 45%;
+    margin-top: 35px;
 }
 
 .left {
@@ -110,4 +110,59 @@ hr {
 .footerh6 {
     text-align: center;
     margin-top: 20px;
+  }
+#listpic{
+  background-image: url("./img/list-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+#listOfUL{
+  overflow: auto;
+}
+
+.list{
+  float:left;
+  margin-right: 200px;
+  margin-top: 40px;
+  margin-left: 90px;
+
+
+}
+
+.list2{
+  float:left;
+  margin-top: 40px;
+
+}
+ul{
+  float:left;
+}
+
+.author{
+  overflow: auto;
+}
+.authorPic{
+  float: left;
+  /*margin-top: 25px;*/
+}
+.authorBio{
+  float:left;
+}
+.authorButton button {
+  float: left;
+  margin-top: 40px;
+  background-color: #ae5b44;
+  border:none;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 27px;
+  padding-left: 27px;
+  margin-left: 20px;
+}
+
+span img{
+  margin-top: 20px;
 }
