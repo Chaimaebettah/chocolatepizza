@@ -1,0 +1,45 @@
+#listpic{
+  background-image: url("./img/list-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+#listOfUL{
+  overflow: auto;
+}
+
+.list{
+  float:left;
+  margin-right: 200px;
+}
+
+.list2{
+  float:left;
+}
+ul{
+  float:left;
+}
+
+.author{
+  overflow: auto;
+}
+.authorPic{
+  float: left;
+  margin-top: 25px;
+}
+.authorBio{
+  float:left;
+}
+.authorButton button {
+  float: left;
+  margin-top: 40px;
+  background-color: #ae5b44;
+  border:none;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 27px;
+  padding-left: 27px;
+  margin-left: 80px;
+}
